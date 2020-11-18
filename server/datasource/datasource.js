@@ -3,7 +3,7 @@ const { v4: uuidv4 } = require('uuid');
 const moment = require('moment')
 const MongoClient = require('mongodb').MongoClient;
 const mongoURI = `mongodb+srv://${process.env.dbadmin}:${process.env.dbpassword}@${process.env.clustername}/${process.env.dbname}?retryWrites=true&w=majority`;
-// console.log(mongoURI);
+console.log(mongoURI);
 const options = {
     useUnifiedTopology: true,
     numberOfRetries: 10,
