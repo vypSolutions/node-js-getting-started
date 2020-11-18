@@ -1,31 +1,56 @@
 {
-  "name": "node-js-getting-started",
-  "version": "0.3.0",
-  "description": "A sample Node.js app using Express 4",
-  "engines": {
-    "node": "12.x"
-  },
-  "main": "index.js",
+  "name": "nglp",
+  "bin": "./server.js",
+  "version": "1.0.0",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
+    "start": "node server.js"
   },
+  "private": true,
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "aws-sdk": "^2.759.0",
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "core-js": "^2.5.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "dotenv-extended": "^2.8.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "hammerjs": "^2.0.8",
+    "http": "0.0.1-security",
+    "http-server": "^0.12.1",
+    "https": "^1.0.0",
+    "joi": "^14.3.1",
+    "jquery": "^3.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "method-override": "^3.0.0",
+    "moment": "^2.25.0",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.0.3",
+    "nodemailer": "^6.4.14",
+    "nodemon": "^2.0.5",
+    "pkg": "^4.4.9",
+    "request": "^2.88.2",
+    "uuid": "^8.0.0",
+    "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "got": "^11.3.0",
-    "tape": "^4.7.0"
+    "@types/node": "~8.9.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/heroku/node-js-getting-started"
+  "engines": {
+    "node": "~10.16.0",
+    "npm": "~6.9.0"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "license": "MIT"
+  "description": "",
+  "main": "server.js",
+  "author": "YJ",
+  "license": "ISC",
+  "homepage": ""
 }
